@@ -13,13 +13,13 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
     <link rel="stylesheet" href="./assets/css/styles.css" type=text/css> <link
         href="https://fonts.googleapis.com/css?family=Courgette&display=swap" rel="stylesheet">
-    <script type="text/javascript" src="./assets/javascript/game.js"></script>
     <title>Gif Generator</title>
 </head>
 
 <body>
-    <div class="context">
-        <!--h1>GifTastic</h1-->
+    <div class="container-fuid">
+        <div class="row display-4  text-center">Gif Generator</div>
+        <!--div class="context">
             <h1>
                 <span>W</span>
                 <span>e</span>
@@ -29,23 +29,28 @@
                 <span>m</span>
                 <span>e</span>
             </h1>
+        </div-->
+
+        <div class="row area">
+            <!--Add generated buttons here-->
+            <div id="buttons-view"></div>
+            <form id="movie-form">
+                <label for="movie-input">Add a Movie</label>
+                <input type="text" id="movie-input"><br>
+
+                <!-- Button triggers new movie to be added -->
+                <input id="add-movie" type="submit" value="Add a Movie!">
+            </form>
+            <!-- Movies will Get Dumped Here -->
+            <div class= row id="movies-view"></div>
+        </div>
     </div>
 
-
-    <div class="area">
-        <ul class="circles">
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-        </ul>
-    </div>
+    <!-- jQuery JS -->
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
+    <!-- Code to the JavaScript File -->
+    <script type="text/javascript" src="./assets/javascript/game.js"></script>
 </body>
 
 </html>
