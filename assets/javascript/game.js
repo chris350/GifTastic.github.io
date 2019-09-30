@@ -1,5 +1,5 @@
 
-var movies = ["slow capping", "oprah", "eye rolling", "thumbs up", "what now", "so good", "anger management"];
+var movies = ["Severus snape", "oprah", "Bug bunny","cats","charlie chaplin","it's friday!"];
 
 //$("document").ready(function () {
 
@@ -14,6 +14,7 @@ function renderButton() {
         var a = $("<button>");
         // Adding a class
         a.addClass("movie-btn");
+        a.addClass("glow-on-hover");
         a.addClass("btn btn-dark");
         // Adding a data-attribute with a value of the movie at index i
         a.attr("data-name", movies[i].trim());
@@ -42,7 +43,7 @@ function displayMovieInfo() {
 
             // Creating a div to hold the movie
             var movieDiv = $("<div>");
-            movieDiv.addClass('col-md-3 ');
+            movieDiv.addClass('col-md-4 ');
             movieDiv.addClass('movie');
 
             // Retrieving the URL for the image
