@@ -13,36 +13,38 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
     <link rel="stylesheet" href="./assets/css/styles.css" type=text/css> <link
         href="https://fonts.googleapis.com/css?family=Courgette&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Be+Vietnam&display=swap" rel="stylesheet">
     <title>Gif Generator</title>
 </head>
 
 <body>
-    <div class="container-fuid">
-        <div class="row display-4  text-center">Gif Generator</div>
-        <!--div class="context">
-            <h1>
-                <span>W</span>
-                <span>e</span>
-                <span>l</span>
-                <span>c</span>
-                <span>o</span>
-                <span>m</span>
-                <span>e</span>
-            </h1>
-        </div-->
+    <div class="container-fluid wrapper">
+        <div class="row intro">
+            <div class="display-4 w-100 text-center">Random Gif Generator</div>
+            <div class="context">
+                <h1>
+                    <span>W</span>
+                    <span>e</span>
+                    <span>l</span>
+                    <span>c</span>
+                    <span>o</span>
+                    <span>m</span>
+                    <span>e</span>
+                </h1>
+            </div>
+        </div>
 
         <div class="row area">
             <!--Add generated buttons here-->
             <div id="buttons-view"></div>
             <form id="movie-form">
-                <label for="movie-input">Add a Movie</label>
-                <input type="text" id="movie-input" placeholder="Enter movie/catagory name"><br>
-
+                <label for="movie-input">Add your button</label>
+                <input type="text" id="movie-input" placeholder="Enter name">
                 <!-- Button triggers new movie to be added -->
-                <input id="add-movie" type="submit" value="Add a Movie!">
+                <input id="add-movie" type="submit" value="Submit">
             </form>
             <!-- Movies will Get Dumped Here -->
-            <div class= row id="movies-view"></div>
+            <div class=row id="movies-view"></div>
         </div>
     </div>
 
