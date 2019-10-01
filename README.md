@@ -1,4 +1,4 @@
-# Random Gif Generator
+# TV Celeb Gif Generator
 ---
 
 ###### This is a fun project done as a part of homework project for Georgia Tech Full Stack Web Development Bootcamp. It is developed using `HTML`,`Javascript`,`CSS` and [Giphy API](https://giphy.com/). 
@@ -13,7 +13,7 @@ Following are some emoji's from [Giphy.com](https://giphy.com).
 
 ### Instuctions
 ----
-Theme for the project is 'random' , so you will see buttons from different catagories on the page.
+Theme for the project is famous television personalities , so you will see buttons from different catagories on the page.
 Here is a snapshot of the page
 ![](assets/images/Capture.PNG)
 
