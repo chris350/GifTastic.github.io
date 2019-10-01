@@ -1,5 +1,5 @@
 
-var movies = ["Severus snape", "oprah", "Bug bunny","cats","charlie chaplin","it's friday!"];
+var movies = ["oprah","ellen degeneres","simon cowell","jim parsons","anderson cooper"];
 
 //$("document").ready(function () {
 
@@ -30,7 +30,7 @@ function displayMovieInfo() {
 
     var movie = $(this).attr("data-name");
     var myApiKey = "n43wiRnZ4tINe7A8XKW8s6XjjNSsZK7P";
-    var queryURL = "https://api.giphy.com/v1/gifs/search?api_key=" + myApiKey + "&limit=10&rating=G&lang=en&q=" + movie;
+    var queryURL = "https://api.giphy.com/v1/gifs/search?api_key=" + myApiKey + "&limit=10&lang=en&q=" + movie;
     console.log(queryURL);
 
     // Creating an AJAX call for the specific movie button being clicked
