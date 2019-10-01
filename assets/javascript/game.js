@@ -57,8 +57,18 @@ function displayMovieInfo() {
             image.attr("data-still", stillImage);
             image.attr("data-animated", animatedImage);
 
+            //Append ratings to image
+            var ratingsDiv = $("<div>");
+            ratingsDiv.addClass("h6");
+            var gifRating = response.data[i].rating;
+            console.log(response);
+            console.log(gifRating);
+            ratingsDiv.html("<p style='width:200px;margin:5px;'>Ratings: "+gifRating.toUpperCase()+"</p>");
+            
+
             // Appending the image
             movieDiv.append(image);
+            movieDiv.append(ratingsDiv);
 
             // Putting the entire movie above the previous movies
             $("#movies-view").prepend(movieDiv);
