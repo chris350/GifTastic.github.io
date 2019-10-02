@@ -13,7 +13,7 @@ Following are some emoji's from [Giphy.com](https://giphy.com).
 
 ### Instuctions
 ----
-Theme for the project is famous television personalities , so you will see buttons from different catagories on the page.
+Theme for the project is popular television personalities , so you will see buttons from different catagories on the page.
 Here is a snapshot of the page
 ![](assets/images/Capture.PNG)
 
