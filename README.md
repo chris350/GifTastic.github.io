@@ -22,3 +22,5 @@ Here is a snapshot of the page
 
 [Have fun with making gif's](https://pshegde123.github.io/GifTastic.github.io/)
 
+### Authors
+For Contribution history check [here](https://github.com/pshegde123/GifTastic.github.io/graphs/contributors)
